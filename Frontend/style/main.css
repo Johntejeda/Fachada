@@ -1,0 +1,22 @@
+body {
+    color:black;
+    font-family: Arial, sans-serif;
+    background-image: url("/home/john/Documents/Greenfield/Fachada/Frontend/style/sala-de-estar-borrosa_1203-32.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.top-section{
+  float:left;
+  margin: 0 1.5%;
+  withd:63%;
+}
+aside{
+  float:rigth
+  margin:0 1.5%;
+  width: 30%;
+}
+button:hover {
+   opacity: 0.8;
+}
