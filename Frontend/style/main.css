@@ -17,11 +17,11 @@ aside{
   margin:0 1.5%;
   width: 30%;
 }
-button:hover {
-   opacity: 0.8;
-}
+
 h1{
+
   color:red;}
+
 
 
 }
@@ -29,4 +29,18 @@ i{
   float:center;
   margin: 0 60.5%;
   withd:63%;
+}
+.logout{
+  float: right;
+  color:red;
+
+}
+ul{
+  center: middle;
+  button:hover
+     opacity: 0.8;
+  }
+
+p {
+    text-align:middle;
 }
