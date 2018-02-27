@@ -22,6 +22,10 @@ h1{
 
   color:red;}
 
+  h1 {
+  font-size: 30px;
+}
+
 
 
 }
@@ -43,4 +47,34 @@ ul{
 
 p {
     text-align:middle;
+}
+.wrapper{
+  {
+	position: static;
+	width: 200px;
+	height: 200px;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover,
+.rating > span:hover ~ span {
+  color: transparent;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   left: 0;
+   color: gold;
+}
+.checked {
+    color: yellow;
 }
